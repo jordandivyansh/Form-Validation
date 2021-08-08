@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="icon" type="image/png" href="files/favicon.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome! -> Sign Up</h1>
+        <!-- Form -->
+        <form action="" id="form">
+            <!-- Name -->
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Divyansh Kumar">
+            </div>
+            <!-- Contact No. -->
+            <div class="form-group">
+                <label for="phone">Contact Number(without Country Code)</label>
+                <input type="tel" id="phone" placeholder="9548211306">
+            </div>
+            <!-- Email -->
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" id="email" placeholder="divyanshkrit@gmail.com">
+            </div>
+            <!-- Website -->
+            <div class="form-group">
+                <label for="web">Website URL</label>
+                <input type="url" id="web" placeholder="https://jordandivyansh.github.io">
+            </div>
+            <!-- Password -->
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Create Password">
+            </div>
+            <!-- cnf psw -->
+            <div class="form-group">
+                <label for="cpassword">Email address</label>
+                <input type="password" id="cpassword" placeholder="Confirm Password">
+            </div>
+            <button type="submit">Register</button>
+        </form>
+        <!-- Response -->
+        <div class="response">
+            <h3 id="message">Go for It!</h3>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
